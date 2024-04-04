@@ -1,0 +1,122 @@
+/* nav.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    z-index: 9;
+}
+
+.nav {
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo {
+    height: 60px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 500px;
+    display: flex;
+}
+
+.search-box {
+    width: 80%;
+    height: 40px;
+    /* Other styling properties */
+}
+
+.search-btn {
+    width: 20%;
+    height: 40px;
+    /* Other styling properties */
+}
+
+/* Other styles for links, footer, etc. go here */
+
+/* home.css */
+
+/* Reset default list styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333; /* Set your desired background color */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white; /* Text color for links */
+    text-align: center;
+    padding: 14px 16px; /* Adjust padding as needed */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: black; /* Hover text color */
+}
+
+/* home.css */
+
+/* Style the vertical navigation bar */
+/* Your existing CSS styles */
+
+/* Style for product listings */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
